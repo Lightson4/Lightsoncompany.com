@@ -1,0 +1,27 @@
+greetings = "hello world!,"
+Man = greetings + " \n" "how are you all doing today?"
+print(Man)
+import pandas as pd
+Ochor = pd.DataFrame ({
+    "Name": 
+            ["Light", "Ferdinand", "Princewell", "Confidence", "Blessing"],
+
+    "Gender": 
+            ["Male", "Male", "Male", "Female", "Female"],
+
+    "Status": 
+            ["Single", "Married", "Single", "Single", "Single"],
+    "Age": 
+            [21, 32, 30, 27, 10],
+        
+    "Country":
+            ["Canada", "Canada", "France", "Nigeria", "USA",]
+    
+})
+print(Ochor)
+Ochor.to_csv("output.csv", index= False)
+Read = pd.read_csv("output.csv")
+#print(Read)
+#changing index
+Read.set_index("Name", inplace=True)
+print(Read)

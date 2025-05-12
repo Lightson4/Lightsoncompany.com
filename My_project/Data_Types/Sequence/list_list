@@ -1,0 +1,2 @@
+Employees = [['john', "HR"],['Jane', 'Finance'],['tom', 'It'], ['Alianc', 'Marketing']]
+print(Employees[0])

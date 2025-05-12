@@ -1,0 +1,8 @@
+fruit_inventory = ["apple" ,"banana", 'apple', "orange", "banana", "apple"]
+print(fruit_inventory)
+print(fruit_inventory.count("apple"))
+print(fruit_inventory.count("banana"))
+print(fruit_inventory.remove("apple"))
+fruit_none = list(set(fruit_inventory))
+print(fruit_none)
+print(type(fruit_none))

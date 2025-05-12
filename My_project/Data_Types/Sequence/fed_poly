@@ -1,0 +1,2 @@
+fed_poly = [["Architecture", "Building Tech", "Estate managment"], ["Accountancy", "Business Administration", "banking and finance"]]
+print(fed_poly[1])
