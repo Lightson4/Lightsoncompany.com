@@ -1,0 +1,27 @@
+import numpy as np
+import pandas as pd
+def get_section_A():
+    return{
+    "Fullname":[
+        "Okoye John","Nwaun Ephraem","Stephen Ezinne","David Chima","Oluchi Glory","Obioma Noble","Igwe Chika","Patrick","Somotochukwu Okonkwo","Obijiaku Chioma Favour","Shogbo","Aug Jennifer","Enooch Favouur","Okafor Ikechukwu","Tali Wagwan","Joy ARewa","William Samuel","Popola Aminah","Amarachi James","Marvellous Udo","Chidnma Cythia","Agbo Blessing Stella","Kalu Chidinma Imo","Inyam Chibunue Shedraze","Patrick John","Ajah Emmanunel","Ugwu Ozioma H","Okafor Chidndu Hillary","Chidima Bleessing","Victor onyeochi","Udemba Faithmary chinaza",'Chinaza faithmary',"Ekwealor Emmanuella","Glory Friday","Ogban Oshim K","Ugwu Oziomma H","Nwankwo Ijeoma Precious",
+        "Elechi Miracle Ogechi","Okeke Onyebuchi Ruth","Patrick Chukwuma","Nwankwo Oluchi Charity","Umeh Chidimma Precious",
+        "Nwadi Chinenye Sufficience","Ikechukwu Comfort Chinaza","Godwin Faour Chinecherem","Nwakwo chinenye Esther","Okafor Ezinne Genevieve","Okechukwu Blessing","Maduka Ogechi","Ekwedzor Chidinma Loveth","Nwankwo Catherine","Famous Stanley chukwuemeka",
+        "Ekwe Chukwuebuka Daniel","Stephen Precious","Olekamma Christopher C","Godwin Ebube Marvelous","Nwoye","Nelson Light","Ferdinand O","Obasi Somtochukwu F"
+                  ],
+    "Gender": ["Male","Male","Female","male","Female","male","Female","Male", "Female","Male", "female", "Female","Male","Male","Female","Male","Female","Female","Male","Female","Female","Female","Male","Male","Male","Female","Male","Female","male","Female","Female","Female","Female","Male","female","female","Female","Female","male","Female",
+               "Female","Female","Female","Female","Female","Female","Female","Female","Female","Female","Male","Male","Female","Male","Male","Male","male","male","Female","Female"],
+    "Age": [
+        24,20,20,23,27,20,20,21,16,19,20,26,18,21,22,23,22,20,23,24,22,25,23,23,27,22,26,27,25,23,23,20,20,25,22,23,23,22.24,23,22,22,19," ",23,19,21,23,24,24,25,26,20,26,22,20,22,32,22,23,26
+            ],
+    "Faculty": [
+        "School of Applied Arts","Architectureal Engneeriing","school of business studies","school of business studies","school of business",
+        "school of finacial studies","School of Applied science","School of business","OTM","Business studies","Schooling of environment studies", " school of Applied Arts","Arts", "school of business studies","Bam","SBS",
+        "BAM","SChool of confucious studies","Evnironmentail","SBS","school of applied science","Environmential Design & Tech","SBS","EE","SBS","Business Studies"," ","School of Environment","SBS","EEE","Arts design and printing tech","Arts design and printing tech",
+        "school of applied science","Applied Science","Environment","SBS","SBS","SBS","school of applied science","School of Environment science Design","school of finacial studies","school of finacial studies","school of applied science","SChool of finacial Studies","School of Applied science","school of business studies","Social science", "School of business","school of business studies","school of applied science",
+        "Information Science","School of finance","Engneeriing","SBS"," school of Applied Science","SBS","Information and Technology","SBS","Business","SBS"],
+    "Dept": [
+        "Fine & Applied Arts","Environment science", "Business Admin","Schooling of environment studies","Accounting","OTM","accountancy","food science and technology","OTM","Quantity surerying","Arts","Fashion","OTM","Bam","BAM","BAM","Chinese","Estate","Business admin","SLT","Urban and Regional Planning","Marketing","EE","Pub Admin","OTM","OTM","Estate","Business Admin",
+        "EE","Printing Tech","Printing Tech","Hospitality Mgt & Tourism","Hospitality Mgt & Tourism","Estate Mgt","OTM","BAM","BAM","Home and Rurial Economice","Building tech","Accounting","Accounting","Science Laboratory Tech",
+        "Banking and finance","Home & Rural Economics","BAM","insurance","BAM","OTM","Food And Science Tech","Library annd information science","Accounting","Computer Engneeriing","Public Admin","Hospitality Mgt & Tourism","BAM","Computer science","BAM","Backing And Fianace","BAM","Fine & Applied Arts"]
+     
+}

@@ -1,0 +1,7 @@
+Python
+Matplotlib
+Pandas
+Numpy
+Seaborn
+Yfinance
+Json

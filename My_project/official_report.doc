@@ -1,0 +1,88 @@
+ Official Report: Student Survey Data Analysis
+Prepared by: Nelson Light Chimeremeze
+Project: Student Survey on Course Preference and Satisfaction
+Institution: Federal Polytechnic Oko
+Date: 2nd, May 2025
+1. Introduction
+This report summarizes a data-driven analysis of a student survey conducted to evaluate the relationship between students’ childhood dream courses and their current academic path, satisfaction levels, and future career intentions. The dataset includes responses from 60 students across various faculties.
+
+The project utilized Python programming in Visual Studio Code, with modularized data stored across Section_A, Section_B, and Section_C and merged for analysis.
+
+2. Data Structure
+The final dataset was compiled from three sections:
+
+Section A: Personal and academic demographics (Full Name, Gender, Age, Faculty, Department)
+
+Section B: Childhood dream course, current course, and reasons for deviation
+
+Section C: Motivation, satisfaction level, and future intent to practice the course
+
+3. Tools Used
+Pandas: Data wrangling and manipulation
+
+Seaborn/Matplotlib: Visualizations
+
+NumPy: Numerical conversions and array processing
+
+4. Key Findings
+ Demographics & Faculty Distribution
+Gender distribution was relatively balanced.
+
+The age of respondents ranged from 16 to 28 years, with the majority between 18–22.
+
+Faculties represented included Science, Engineering, Business, and more, with fairly even distribution.
+
+ Dream vs Current Course
+Majority of students are not studying their childhood dream course.
+
+Top reasons include:
+
+Admission constraints (e.g., JAMB cutoff)
+
+Change in personal interest
+
+Financial limitations
+
+ Satisfaction Levels
+60%+ of students reported being satisfied or very satisfied with their current course.
+
+A few expressed dissatisfaction, often linked to being placed in a different department than desired.
+
+ Career Intentions
+Most students intend to practice their current course after graduation, showing alignment with real-world career goals.
+
+5. Visual Highlights
+Countplots and a Histogram show the distribution across gender, age, satisfaction, and academic choices.
+
+A bar chart compared top dream courses by faculty, revealing strong trends towards Medicine, Engineering, and Law.
+
+A histogram captured the general age trend of the respondents, with a peak around age 20.
+
+6. Recommendations
+Career Counseling:
+
+Students need better access to career guidance before and during JAMB applications to align aspirations with reality.
+
+Flexible Admission Policies:
+
+Faculties should explore ways to allow transfers or interdisciplinary flexibility for students who didn’t get their dream course.
+
+Motivational Engagement:
+
+Departments should engage students not only in academics but also in real-world applications of their field to boost satisfaction.
+
+Further Research:
+
+A longitudinal follow-up can help assess how these decisions impact students post-graduation.
+
+7. Conclusion
+This survey provides valuable insights into the academic alignment and satisfaction of students at Federal Polytechnic Oko. Although many were unable to pursue their dream course, most have adapted positively and intend to continue in their current academic path. The institution can further support students by offering flexible pathways and proactive guidance.
+
+ Attachments:
+student_info.csv — Complete dataset
+
+gender_distribution.png — Gender distribution chart
+
+Additional visualizations embedded in this report
+
+Let me know if you'd like this written to a PDF, or zipped for email. Also, I can format this into a proper HTML or Markdown document if you plan to host it online or submit it digitally.
